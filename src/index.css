@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+body {
+  background-image: linear-gradient(to right bottom, #ad5389, #3c1053);
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.app_container {
+  padding-top: 30px;
+}
+.app_row {
+  height: 85vh;
+}
+.sidebar {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px 20px;
+  box-shadow: 0 0 20px black;
+  text-align: center;
+}
+
+.main {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 20px;
+  box-shadow: 0 0 20px black;
+}
+.sidebar-image {
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  border-radius: 30px;
+}
+
+.sidebar-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.sidebar-name {
+  font-family: Poppins;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.sidebar-name > span {
+  color: rgb(68, 50, 230);
+}
+
+.sidebar-item {
+  margin-bottom: 5px;
+  padding-top: 5px;
+  height: 35px;
+  font-size: 1rem;
+  font-family: Poppins;
+}
+
+.sidebar-title {
+  background-color: gray;
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Poppins;
+  margin-bottom: 10px;
+}
+
+.sidebar-contact {
+  background-color: lavender;
+  margin: 10px -15px;
+}
+
+.sidebar-email {
+  background-image: linear-gradient(to right bottom, #ad5389, #3c1053);
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 1s linear;
+}
+.sidebar-email:hover {
+  transform: scale(1.1);
+}
+
+.sidebar-resume:hover,
+.sidebar-github:hover {
+  background-color: darkgrey;
+  color: black;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.sidebar-location {
+  font-family: Poppins;
+}
+
+@media (max-width: 991px) {
+  .main {
+    margin: 20px;
+  }
+}
+
+/*Navbar*/
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  border-bottom: 4px solid blueviolet;
+}
+
+.navbar-item {
+  font-size: 1rem;
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.navbar-item:hover {
+  transform: scale(1.2);
+  color: brown;
+}
+
+/*about*/
+.about {
+  padding: 20px;
+  margin: -35px;
+}
+.about_intro {
+  font-size: 1.1rem;
+  padding: 20px;
+}
+.about_container {
+  background-color: gray;
+  padding: 20px;
+}
+.about_heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  margin-left: 10px;
+}
+
+.skill-card {
+  background-color: lavender;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+}
+.skill-card-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.skill-card-body {
+  margin-left: 15px;
+}
+.skill-card-content {
+  margin: 0;
+  font-size: 1rem;
+  color: black;
+}
+
+/*Resume*/
+
+.resume {
+  padding-top: 20px;
+}
+
+.resume-card-heading,
+.resume-language-heading {
+  margin-left: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #000;
+}
+.resume-card-body {
+  margin-top: 10px;
+}
+.resume-card-title {
+  font-weight: 700;
+}
+.resume-card-name {
+  font-size: 1.2rem;
+}
+
+.resume-card-details {
+  font-size: 1rem;
+  padding-top: 10px;
+}
+
+/*Bar*/
+
+.bar {
+  width: 90%;
+  background-color: rgb(175, 156, 194);
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.bar-icon {
+  width: 15px;
+  height: 15px;
+}
+.bar-wrapper {
+  background-image: linear-gradient(90deg, #ad5389, #3c1053);
+  border-radius: 20px;
+  padding: 4px 14px;
+  color: azure;
+  font-size: 1rem;
+}
+
+.projects {
+  height: 70vh;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+.projectCard-wrapper {
+  margin: 10px 0;
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+}
+
+.projectCard-image {
+  width: 100%;
+  height: 80%;
+  border-radius: 30px;
+  border: 2px solid violet;
+  transition: transform 0.3s linear;
+}
+.projectCard-image:hover {
+  transform: scale(1.05);
+}
+
+.projectCard-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.projectCard-title {
+  margin-top: 12px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects_navbar {
+  display: flex;
+  margin-bottom: 5px;
+}
+.projects_navbar > div {
+  margin: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
